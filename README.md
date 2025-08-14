@@ -18,10 +18,9 @@ This project focuses on **multi-column layouts**, **CSS Grid/Flexbox**, and **re
 - Learn responsive design techniques.
 - Improve spacing, alignment, and typography.
 
-## 📸 Preview
-_Add your screenshot or demo link here._
+
 
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/four-card-feature-section.git
+   git clone git@github.com:ben-webdevtech/four-card-feature-layout.git
