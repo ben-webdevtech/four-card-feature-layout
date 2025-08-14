@@ -1,2 +1,27 @@
-# four-card-feature-layout
-A beginner-friendly layout challenge featuring a four-card responsive section. Built with semantic HTML and scalable CSS, this project emphasizes multi-column design, accessibility, and clean structure. Perfect for practicing Flexbox, Grid, and mobile-first responsiveness.
+# Four Card Feature Section
+
+A beginner-friendly responsive layout challenge featuring a clean four-card design.  
+This project focuses on **multi-column layouts**, **CSS Grid/Flexbox**, and **responsive design principles** to create a visually appealing and mobile-friendly section.
+
+## 📌 Features
+- **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.
+- **Modern CSS** – Utilizes Flexbox and Grid for easy, scalable layouts.
+- **Beginner-Friendly** – Ideal for learning HTML/CSS basics.
+- **Clean & Minimal UI** – Focuses on layout and spacing for readability.
+
+## 🛠 Technologies Used
+- HTML5
+- CSS3 (Flexbox & Grid)
+
+## 🎯 Objectives
+- Practice building multi-column layouts.
+- Learn responsive design techniques.
+- Improve spacing, alignment, and typography.
+
+## 📸 Preview
+_Add your screenshot or demo link here._
+
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/four-card-feature-section.git
