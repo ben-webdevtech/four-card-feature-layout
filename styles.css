@@ -40,7 +40,7 @@ body {
 }
 
 .header__description {
-    color: hsl(229, 62%, 66%);
+    color: hsl(212, 6%, 44%);
     margin: 0.75rem 0 0;
     font-size: 0.95rem;
 
@@ -48,7 +48,7 @@ body {
 
 .features {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
     gap: 26px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .feature-card__description {
-    color: hsl(229, 62%, 66%);
+    color: hsl(212, 6%, 44%);
     margin: 0 0 28px
 }
 
@@ -107,25 +107,25 @@ body {
 @media (min-width: 1000px) {
     .features {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-            ". team-builder ."
-            "supervisor . calculator"
-            ". karma .";
         align-items: center;
     }
     .feature-card--supervisor {
-        grid-area: supervisor;
+        grid-column: 1;
+        grid-row: 1 / span 2;
     }
 
     .feature-card--team-builder {
-        grid-area: team-builder;
+        grid-column: 2;
+        grid-row: 1;
     }
 
     .feature-card--karma {
-        grid-area: karma;
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .feature-card--calculator {
-        grid-area: calculator;
+        grid-column: 3;
+        grid-row: 1 / span 2;
     }
 }
